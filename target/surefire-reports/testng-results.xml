@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-16T16:11:03 IST" name="Surefire suite" finished-at="2026-06-16T16:11:22 IST" duration-ms="19065">
+  <suite started-at="2026-06-16T16:27:53 IST" name="Surefire suite" finished-at="2026-06-16T16:28:11 IST" duration-ms="17543">
     <groups>
     </groups>
-    <test started-at="2026-06-16T16:11:03 IST" name="Surefire test" finished-at="2026-06-16T16:11:22 IST" duration-ms="19065">
-      <class name="QATest.Interview.dam">
-        <test-method is-config="true" signature="setup()[pri:0, instance:QATest.Interview.dam@659a969b]" started-at="2026-06-16T16:11:03 IST" name="setup" finished-at="2026-06-16T16:11:15 IST" duration-ms="11876" status="PASS">
+    <test started-at="2026-06-16T16:27:53 IST" name="Surefire test" finished-at="2026-06-16T16:28:11 IST" duration-ms="17543">
+      <class name="QATest.Interview.TenForceTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:QATest.Interview.TenForceTest@659a969b]" started-at="2026-06-16T16:27:53 IST" name="setup" finished-at="2026-06-16T16:28:02 IST" duration-ms="9210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="careerFlowTest()[pri:0, instance:QATest.Interview.dam@659a969b]" started-at="2026-06-16T16:11:15 IST" name="careerFlowTest" finished-at="2026-06-16T16:11:22 IST" duration-ms="6883" status="PASS">
+        <test-method signature="careerFlowTest()[pri:0, instance:QATest.Interview.TenForceTest@659a969b]" started-at="2026-06-16T16:28:03 IST" name="careerFlowTest" finished-at="2026-06-16T16:28:11 IST" duration-ms="7998" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- careerFlowTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:QATest.Interview.dam@659a969b]" started-at="2026-06-16T16:11:22 IST" name="tearDown" finished-at="2026-06-16T16:11:22 IST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QATest.Interview.TenForceTest@659a969b]" started-at="2026-06-16T16:28:11 IST" name="tearDown" finished-at="2026-06-16T16:28:11 IST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- QATest.Interview.dam -->
+      </class> <!-- QATest.Interview.TenForceTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

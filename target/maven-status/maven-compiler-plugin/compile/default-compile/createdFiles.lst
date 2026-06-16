@@ -1,4 +1,3 @@
 PageObjects\Careers.class
 PageObjects\PageHelper.class
-QATest\Interview\TenForceTest.class
 PageObjects\LifeOfInterns.class
