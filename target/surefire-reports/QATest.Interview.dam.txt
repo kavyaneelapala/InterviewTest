@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: QATest.Interview.dam
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.81 s -- in QATest.Interview.dam
