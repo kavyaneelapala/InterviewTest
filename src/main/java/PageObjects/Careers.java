@@ -60,7 +60,12 @@ public class Careers extends PageHelper
 	public void clickOnJobOpening()
 	{
 		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+
+		wait.until(ExpectedConditions.urlToBe(
+		        "https://www.tenforce.com/career/#people"));
+		
+		
 
 	    WebElement link = wait.until(
 	            ExpectedConditions.visibilityOfElementLocated(
@@ -71,6 +76,9 @@ public class Careers extends PageHelper
 
 	    ((JavascriptExecutor) driver)
 	            .executeScript("arguments[0].click();", link);
+	    
+	    wait.until(ExpectedConditions.urlToBe(
+		        "https://www.tenforce.com/career/#job"));
 		
 		
 	}
